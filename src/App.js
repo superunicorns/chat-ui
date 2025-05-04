@@ -1,9 +1,10 @@
 import './App.css';
+import { Nav } from './components';
 
 function App() {
   return (
     <main className="__main">
-      Hola mundo
+      <Nav />
     </main>
   );
 }
