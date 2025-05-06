@@ -3,7 +3,7 @@ import Avatar from "../chatList/Avatar";
 import ChatItem from "./ChatItem";
 
 import user1 from "../../images/user-1.jpg";
-import user2 from "../../images/user-2.jpg";
+import other from "../../images/other.jpg";
 import "./ChatContent.css"; 
 
 class ChatContent extends Component {
@@ -17,13 +17,13 @@ class ChatContent extends Component {
     },
     {
       key: 2,
-      image: user2,
+      image: other,
       type: "other",
       msg: "I am fine.",
     },
     {
       key: 3,
-      image: user2,
+      image: other,
       type: "other",
       msg: "What about you?",
     },
@@ -35,7 +35,7 @@ class ChatContent extends Component {
     },
     {
       key: 5,
-      image: user2,
+      image: other,
       type: "other",
       msg: "Finally. What's the plan?",
     },
@@ -47,7 +47,7 @@ class ChatContent extends Component {
     },
     {
       key: 7,
-      image: user2,
+      image: other,
       type: "other",
       msg: "I'm taliking about the tutorial",
     },
